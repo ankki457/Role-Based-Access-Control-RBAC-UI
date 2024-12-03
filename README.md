@@ -71,12 +71,15 @@ rbac-ui/
 │
 ├── src/
 │   ├── components/          # UI components (Navbar, UserList, RoleList, etc.)
+│   ├── pages/               # Different pages of the application (Dashboard, Login, etc.)
 │   ├── services/            # Simulated API calls and data management
 │   ├── App.js               # Main app component
 │   ├── index.js             # Entry point
 │   └── styles.css           # Custom styles
 │
 ├── public/                  # Static assets (index.html, images, etc.)
+│   ├── images/              # Images like logos, icons, etc.
+│   └── favicon.ico          # Favicon for the app
 │
 ├── package.json             # Project dependencies and scripts
 ├── vite.config.js           # Vite configuration
