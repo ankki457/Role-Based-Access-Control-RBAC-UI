@@ -24,6 +24,11 @@ The project is built using **React** and **Bootstrap** for styling, with a focus
     - Mock API calls for CRUD operations on users and roles.
     - Simulated server responses to validate functionality.
 
+## **Live Project**
+
+- **Frontend (UI)**: [Role-Based Access Control (RBAC) UI - Live](https://role-based-access-control-rbac-ui-o0fe.onrender.com)
+- **Backend (API)**: [Backend API - Live](https://assignment-role-based-access-control.onrender.com)
+
 ## **Technologies Used**
 
 - **React** for the frontend framework.
@@ -36,7 +41,7 @@ The project is built using **React** and **Bootstrap** for styling, with a focus
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/ankki457/Role-Based-Access-Control-RBAC-UI/tree/main/Frontend
+    git clone <repository-url>
     ```
 
 2. Navigate to the project folder:
@@ -58,12 +63,26 @@ The project is built using **React** and **Bootstrap** for styling, with a focus
     ```
 
     Open your browser and visit `http://localhost:5173/` to view the app.
-    live project `https://role-based-access-control-rbac-ui-o0fe.onrender.com`
-    BAackend Api `https://assignment-role-based-access-control.onrender.com`
 
 ## **Project Structure**
 
 ```
+rbac-ui/
+│
+├── src/
+│   ├── components/          # UI components (Navbar, UserList, RoleList, etc.)
+│   ├── services/            # Simulated API calls and data management
+│   ├── App.js               # Main app component
+│   ├── index.js             # Entry point
+│   └── styles.css           # Custom styles
+│
+├── public/                  # Static assets (index.html, images, etc.)
+│
+├── package.json             # Project dependencies and scripts
+├── vite.config.js           # Vite configuration
+└── README.md                # Project documentation
+```
+
 ## **Features**
 
 ### **User Management**
@@ -116,10 +135,9 @@ The project is built using **React** and **Bootstrap** for styling, with a focus
 - Add more advanced features like role inheritance, logging, and audit trails.
 - Improve security with better authentication and authorization practices.
 
-![Screenshot (92)](https://github.com/user-attachments/assets/5fe0779f-c48d-4b52-93a4-0cbd631fcf76)
-![Screenshot (93)](https://github.com/user-attachments/assets/d6854b4e-5160-404d-adec-d943406156f9)
-![Screenshot (94)](https://github.com/user-attachments/assets/dc9e9a72-e37c-40eb-b52b-e93fbddf16a5)
-![Screenshot (95)](https://github.com/user-attachments/assets/0e713323-6eb9-4b8d-bd99-24c25266564e)
-
+![Screenshot (92)](https://github.com/user-attachments/assets/a4f0ca65-5308-4c0f-857f-eacd7a9be952)
+![Screenshot (93)](https://github.com/user-attachments/assets/83086881-7e62-4f6b-9e22-ae3d136efa3a)
+![Screenshot (94)](https://github.com/user-attachments/assets/6e03ef2f-bb2e-4b40-a63f-9835ec56af14)
+![Screenshot (95)](https://github.com/user-attachments/assets/74325e46-8009-4775-b7b0-eb39b0b0f578)
 
 
